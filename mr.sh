@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
-JAR="${HOME}/workspaces/ufc/mr-simulation/mr-simulation-app/target/mr-simulation-app-1.0.0-SNAPSHOT-jar-with-dependencies.jar"
+SCRIPT="$(readlink --canonicalize-existing "$0")"
+SCRIPTPATH="$(dirname "$SCRIPT")"
+
+JAR="$SCRIPTPATH/mr.jar"
+if [ ! -f $JAR ]; then
+    echo "$JAR non trouvé, pour exécuter les corrigés, télécharger au préalable la dernière release sur https://github.com/nelt/mr-simulation/releases"
+    exit 1
+fi
 
 java -jar $JAR "$@"
