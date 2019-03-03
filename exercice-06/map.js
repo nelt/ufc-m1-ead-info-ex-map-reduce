@@ -11,10 +11,10 @@ statistiques par département :
 */
 function map(value) {
     var stat = {
-       avg: value.montant,
+       avg: value.temperature,
        cnt: 1,
-       min: value.montant,
-       max: value.montant
+       min: value.temperature,
+       max: value.temperature
    };
 
    emit('stats - ' + value.departement, stat);
