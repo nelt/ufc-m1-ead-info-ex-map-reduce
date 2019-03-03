@@ -6,7 +6,7 @@ function reduce(values) {
         if(result.max < value.max) {
             result.max = value.max;
         }
-        if(result.min > value.min) {
+        if(result.min == -1 || result.min > value.min) {
             result.min = value.min;
         }
     }
