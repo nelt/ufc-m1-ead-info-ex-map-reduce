@@ -5,7 +5,7 @@ function map(value) {
         amount += 0.2;
     }
     if(value.fin == null) {
-        amount += 3;
+        amount += 2;
     }
 
     emit(dateFormat(value.debut, 'yyyy-MM') + '-' + value.numeroAbonne, {amount: amount});
