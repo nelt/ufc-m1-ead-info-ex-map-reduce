@@ -6,7 +6,10 @@ Les corrigés sont exécutables à l'aide de l'outil [mr-simulation](https://git
 
 ## Exécution des corrigés
 
-Télécharger ce projet.
+Cloner ce projet :
+```bash
+git clone git@github.com:nelt/ufc-m1-ead-info-ex-map-reduce.git
+```
 
 Depuis la page [release du projet mr-simulation](https://github.com/nelt/mr-simulation/releases) , télécharger le fichier mr-_version_.jar de la dernière release.
 
