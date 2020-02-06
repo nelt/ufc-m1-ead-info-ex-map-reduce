@@ -1,2 +1,4 @@
 *.iml
 mr*.jar
+
+private/
