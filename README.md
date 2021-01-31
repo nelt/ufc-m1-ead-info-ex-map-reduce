@@ -11,11 +11,7 @@ Cloner ce projet :
 git clone git@github.com:nelt/ufc-m1-ead-info-ex-map-reduce.git
 ```
 
-Depuis la page [release du projet mr-simulation](https://github.com/nelt/mr-simulation/releases) , télécharger le fichier mr-_version_.jar de la dernière release.
-
-Placer le fichier téléchargé à la racine du projet des exercices (à côté du fichier mr.sh) en le renommant **mr.jar**.
-
-Ensuite, pour exécuter le corrigé d'un des exercice, se placer dans le répertoire de l'exercie choisi, et exécuter la commande **mr.sh** en spécifiant le fichier de la fonction map, celui de la fonction reduce et le fichier de données.
+Pour exécuter le corrigé d'un des exercice, se placer dans le répertoire de l'exercie choisi, et exécuter la commande **mr.sh** en spécifiant le fichier de la fonction map, celui de la fonction reduce et le fichier de données.
 
 Par exemple, pour exécuter le corrigé de la première question de l'exercice 1 :
 
