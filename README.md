@@ -16,6 +16,10 @@ Pour exécuter le corrigé d'un des exercice, se placer dans le répertoire de l
 Par exemple, pour exécuter le corrigé de la première question de l'exercice 1 :
 
 ```bash
+./mr.sh --map exercice-01/01_map.js --reduce exercice-01/01_reduce.js --data-set exercice-01/data-set.json
+```
+
+```bash
 cd exercice-01
-../mr.sh --map exercice-01/01_map.js --reduce exercice-01/01_reduce.js --data-set exercice-01/data-set.json
+../mr.sh --map 01_map.js --reduce 01_reduce.js --data-set data-set.json
 ```
